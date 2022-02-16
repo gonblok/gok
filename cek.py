@@ -3,7 +3,7 @@ from pycoingecko import CoinGeckoAPI
 import requests as r
 import time
 def cek():
-	time.sleep(7200)
+	time.sleep(900)
 	today = date.today()
 	d3 = today.strftime("%m/%d/%y")
 	print(type(d3))
