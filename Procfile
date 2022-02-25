@@ -1,1 +1,1 @@
-web: python cek.py
+web_cek.py
