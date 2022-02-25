@@ -12,7 +12,7 @@ def cek():
 
 API_KEY = '5153674664:AAGIf3UvyN4cA1cLsvakQNmQSY7DUsEMfss'
 bot = telebot.TeleBot(API_KEY)
-@bot.message_handler(commands=['info'])
+@bot.message_handler(commands=['hero'])
 def info(message):
   cek()
   bot.reply_to(message,hargaj)
